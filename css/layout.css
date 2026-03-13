@@ -1,0 +1,37 @@
+.container{
+max-width:1200px;
+margin:auto;
+padding:24px;
+}
+
+.section{
+padding:64px 0;
+}
+
+.grid{
+display:grid;
+gap:24px;
+}
+
+.grid-2{
+grid-template-columns:repeat(2,1fr);
+}
+
+.grid-3{
+grid-template-columns:repeat(3,1fr);
+}
+
+.navbar{
+border-bottom:1px solid #AAAAAA;
+}
+
+.navbar .container{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+font-weight:700;
+font-size:20px;
+}
