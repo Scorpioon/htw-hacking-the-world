@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+<title>HTW Generator</title>
+
+<style>
+
+body{
+margin:0;
+background:#111;
+color:white;
+font-family:monospace;
+}
+
+canvas{
+display:block;
+margin:auto;
+}
+
+.controls{
+position:fixed;
+top:20px;
+left:20px;
+background:#000;
+padding:12px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="controls">
+
+<input type="file" id="upload">
+
+<br><br>
+
+<button onclick="mode='image'">IMAGE</button>
+<button onclick="mode='icon'">ICON</button>
+<button onclick="mode='cluster'">CLUSTER</button>
+
+</div>
+
+<canvas id="canvas"></canvas>
+
+<script src="engine.js"></script>
+<script src="clusters.js"></script>
+<script src="icon-mode.js"></script>
+<script src="image-mode.js"></script>
+
+</body>
+
+</html>
