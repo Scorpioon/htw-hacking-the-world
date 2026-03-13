@@ -1,27 +1,38 @@
 :root{
+  --htw-blue:#0044FD;
+  --htw-blue-hover:#2A63FF;
+  --htw-blue-active:#0036C7;
+  --htw-blue-deep:#001E9E;
 
---htw-blue:#0044FD;
---htw-blue-hover:#2A63FF;
---htw-blue-active:#0036C7;
+  --airdrop-green:#00FA9E;
+  --airdrop-green-hover:#00E48F;
+  --airdrop-green-active:#00C97C;
 
---airdrop-green:#00FA9E;
---airdrop-green-hover:#00E48F;
+  --black:#1D1D1D;
+  --text-2:#535353;
+  --grey:#707070;
+  --grey-light:#AAAAAA;
+  --line:#DADADA;
+  --background:#F5F5F5;
+  --surface:#FFFFFF;
 
---black:#1D1D1D;
---grey-dark:#535353;
---grey:#707070;
---grey-light:#AAAAAA;
+  --space-1:8px;
+  --space-2:12px;
+  --space-3:16px;
+  --space-4:24px;
+  --space-5:32px;
+  --space-6:48px;
+  --space-7:64px;
+  --space-8:96px;
 
---background:#F5F5F5;
+  --radius-control:0px;
+  --radius-card:0px;
 
---space-1:8px;
---space-2:16px;
---space-3:24px;
---space-4:32px;
---space-5:64px;
+  --font-display:"HTW Display", "DisplayFont", Arial, sans-serif;
+  --font-body:"HTW Body", "BodyFont", Helvetica, Arial, sans-serif;
+  --font-mono:"HTW Mono", "MonoFont", "IBM Plex Mono", monospace;
 
---font-display:"DisplayFont",sans-serif;
---font-body:"BodyFont",Helvetica,Arial,sans-serif;
---font-mono:"MonoFont",monospace;
-
+  --shadow-soft:0 8px 24px rgba(0,0,0,0.04);
+  --shell:1240px;
+  --transition:180ms ease;
 }

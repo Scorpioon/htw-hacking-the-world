@@ -1,0 +1,22 @@
+/*
+Place custom font files inside /assets/fonts and rename if needed.
+The site will gracefully fall back to system fonts until the real files exist.
+*/
+@font-face{
+  font-family:"HTW Display";
+  src:url("../assets/fonts/HTW-Display.woff2") format("woff2");
+  font-weight:400 700;
+  font-display:swap;
+}
+@font-face{
+  font-family:"HTW Body";
+  src:url("../assets/fonts/HTW-Body.woff2") format("woff2");
+  font-weight:300 700;
+  font-display:swap;
+}
+@font-face{
+  font-family:"HTW Mono";
+  src:url("../assets/fonts/HTW-Mono.woff2") format("woff2");
+  font-weight:400 700;
+  font-display:swap;
+}
