@@ -1,98 +1,116 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-
-<meta charset="UTF-8">
-<title>Hacking The World</title>
-
-<link rel="stylesheet" href="css/reset.css">
-<link rel="stylesheet" href="css/tokens.css">
-<link rel="stylesheet" href="css/layout.css">
-<link rel="stylesheet" href="css/components.css">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hacking The World</title>
+  <meta name="description" content="Hacking The World is a platform exploring the signals shaping culture, technology and society.">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
 </head>
-
 <body>
+  <div class="kicker-bar">
+    <div class="container kicker-bar__row">
+      <span>Hacking The World</span><span>Strategic talks</span><span>Signals & patterns</span><span>Culture · technology · society</span><span>Generator-ready system</span>
+    </div>
+  </div>
+  <div data-include="components/navbar.html"></div>
 
-<nav class="navbar">
-<div class="container">
+  <main>
+    <section class="section">
+      <div class="container split-hero">
+        <div class="page-header">
+          <div class="page-header__eyebrow">Platform / visual system / active site</div>
+          <h1 class="page-header__title">Hacking the World is a platform built to read the present.</h1>
+          <p class="page-header__lead">A cultural and strategic platform analysing contemporary tensions across technology, society, geopolitics and emerging behaviour.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="sessions.html">Explore sessions</a>
+            <a class="btn btn-secondary" href="about.html">About HTW</a>
+          </div>
+        </div>
+        <aside class="hero-panel">
+          <div class="hero-panel__meta"><span>System status</span><span>v1 / live</span></div>
+          <div class="stack-12">
+            <span class="badge badge--blue">HTW Core</span>
+            <p class="hero-panel__text">This first version turns the website into the canonical layer of the system: coherent structure, semantic colour roles, modular components and a future path for the HTW Generator.</p>
+          </div>
+          <div class="grid grid-2">
+            <div class="stat-block">
+              <div class="stat-block__value">32</div>
+              <div class="stat-block__label">Icon master grid</div>
+            </div>
+            <div class="stat-block">
+              <div class="stat-block__value">8</div>
+              <div class="stat-block__label">Layout base grid</div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
 
-<div class="logo">
-HTW
-</div>
+    <section class="section-tight">
+      <div class="container grid grid-3">
+        <article class="card">
+          <div class="card__header">
+            <span class="badge">Signal</span>
+          </div>
+          <h2 class="card__title">Contemporary analysis</h2>
+          <p class="card__text">HTW explores present-day tensions through keynotes, references and critical pattern recognition.</p>
+        </article>
+        <article class="card">
+          <div class="card__header">
+            <span class="badge badge--airdrop">Airdrop</span>
+          </div>
+          <h2 class="card__title">Collective intelligence</h2>
+          <p class="card__text">Airdrop Sessions create temporary spaces for concentrated debate, multiple viewpoints and sharp reframing.</p>
+        </article>
+        <article class="card">
+          <div class="card__header">
+            <span class="badge">System</span>
+          </div>
+          <h2 class="card__title">Visual language</h2>
+          <p class="card__text">Pixel, grid, iconography and procedural image treatment work as a coherent visual interface for reading the world.</p>
+        </article>
+      </div>
+    </section>
 
-<div>
+    <section class="section-tight">
+      <div class="container stack-24">
+        <div class="page-header">
+          <div class="page-header__eyebrow">Latest structure</div>
+          <h2 class="page-header__title">Sessions, open formats and tools.</h2>
+        </div>
+        <div class="grid grid-3">
+          <article class="card">
+            <div class="card__header"><span class="badge">Session</span><span class="mono-line">Keynote</span></div>
+            <h3 class="card__title">Signals of the future</h3>
+            <p class="card__text">Understanding how cultural shifts emerge from unexpected intersections across technology, politics and behaviour.</p>
+            <div class="card__meta"><span>Talk format</span><span>Deck-ready</span></div>
+            <a class="btn btn-secondary" href="sessions.html">See sessions</a>
+          </article>
+          <article class="card">
+            <div class="card__header"><span class="badge badge--airdrop">Airdrop</span><span class="mono-line">45 min</span></div>
+            <h3 class="card__title">Open discussion</h3>
+            <p class="card__text">Collective sessions designed to question the present from multiple perspectives without forcing premature conclusions.</p>
+            <div class="card__meta"><span>Collective format</span><span>Green semantic layer</span></div>
+            <a class="btn btn-airdrop" href="airdrop.html">View Airdrop</a>
+          </article>
+          <article class="card">
+            <div class="card__header"><span class="badge badge--blue">Generator</span><span class="mono-line">MVP</span></div>
+            <h3 class="card__title">Image & icon engine</h3>
+            <p class="card__text">A procedural tool that translates symbols and images to the HTW visual language through grid, pixel and disruption.</p>
+            <div class="card__meta"><span>Tooling</span><span>Expanding system</span></div>
+            <button class="btn btn-primary" data-open-generator>Open generator</button>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
 
-<a href="sessions.html">Sessions</a>
-<a href="airdrop.html">Airdrop</a>
-<a href="generator/index.html">Generator</a>
-
-</div>
-
-</div>
-</nav>
-
-<section class="section">
-
-<div class="container">
-
-<h1>
-Hacking The World
-</h1>
-
-<p>
-A platform exploring signals shaping the future.
-</p>
-
-<br>
-
-<a class="btn btn-primary">
-Explore Sessions
-</a>
-
-</div>
-
-</section>
-
-<section class="section">
-
-<div class="container grid grid-3">
-
-<div class="session-card">
-
-<span class="badge">SESSION</span>
-
-<h3>Signals of the Future</h3>
-
-<p>
-Understanding emerging cultural patterns.
-</p>
-
-<a class="btn btn-secondary">Details</a>
-
-</div>
-
-<div class="session-card">
-
-<span class="badge badge-airdrop">AIRDROP</span>
-
-<h3>Open Discussion</h3>
-
-<p>
-Collective conversation around present tensions.
-</p>
-
-<a class="btn btn-airdrop">Join</a>
-
-</div>
-
-</div>
-
-</section>
-
-<script src="js/main.js"></script>
-
+  <div data-include="components/footer.html"></div>
+  <script src="js/main.js"></script>
 </body>
-
 </html>
